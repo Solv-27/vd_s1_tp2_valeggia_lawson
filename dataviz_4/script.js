@@ -17,7 +17,6 @@ d3.csv('astronautas.csv', d3.autoType).then(data => {
   
       },
       y:{
-        domain: [0,4500],
         label: "Horas por Misión"
       },
       x:{
