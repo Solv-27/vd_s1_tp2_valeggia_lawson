@@ -42,6 +42,7 @@ function createChart(yearSelected) {
     },
     y:{
       domain: [0,20],
+      label: 'Cantidad de participantes'
     },
     color: {
       legend: true,
