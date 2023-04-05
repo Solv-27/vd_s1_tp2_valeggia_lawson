@@ -53,5 +53,5 @@ function createChart(yearSelected) {
 
   d3.select('#chart svg').remove()
   d3.select('#chart').append(() => chart)
-}
+} 
 
