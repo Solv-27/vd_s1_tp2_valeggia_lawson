@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+    <link rel="stylesheet" href="etapaunoydos.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script>
+    <script type="module" src="script_1.js"></script>
+    <script src="script_5.js"></script>
+    <script src="script_6.js"></script>
+    <script src="script_10.js"></script>
+    <script src="script_11.js"></script>
+    <script src="script_12.js"></script>
+    <script src="script_13.js"></script>
+    <script src="script_14.js"></script>
+    <script src="script_15.js"></script>
+    <script>
+      function openNav() {
+        document.getElementById("mySidepanel").style.width = "250px";
+      }
+      function closeNav() {
+        document.getElementById("mySidepanel").style.width = "0";
+      }
+      </script>
+    <title>TP Visualizacion</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="exploracion.html">Exploración</a>
+        <a href="../index.html">Entrega Final</a>
+      </div>
+      <button class="openbtn" onclick="openNav()">&#9776; Visualización de Datos</button>
+      <div class=" nombres">Lawson y Valeggia</div>
+    </div>
+    <div class="seccion">
+      <div class="titulo">Etapas de exploración</div>
+      <div class="descripcion"> Marcas y canales utilizados en todo el proyecto, incluso aquellos no seleccionados para el proyecto final. </div>
+
+      <div class="subtitulo">Gráfico 1</div>
+      <div class="descripcion">Evolucion de cantidad de personas de cada país en cada año que hubo una misión .</div>
+      <div class="grafico">
+        <div id="chart"></div>
+        <div id="selector">
+          <p>Seleccione año:</p>
+          <input type="range" min="2010" max="2019" step="1" value="2010" id="input" />
+          <p id="value-input"></p>
+        </div>
+      </div>
+    
+      <div class="subtitulo">Grafico 2</div>
+      <div class="descripcion">Rango de edades de los astronautas y su nacionalidad.</div>
+      <div class="grafico">
+        <div id="chart_5"></div>
+      </div>
+
+      <div class="subtitulo">Grafico 3</div>
+      <div class="descripcion">Diferencia en cantidades entre hombres y mujeres y su edad en la misión.</div>
+      <div class="grafico">
+        <div id="chart_6"></div>
+      </div>
+    
+
+      <div class="subtitulo">Grafico 4</div>
+      <div class="descripcion">Promedio de edad "y" en los diferentes años que se hizo una misión.</div>
+      <div class="grafico">
+        <div id="chart_10"></div>
+      </div>
+
+      <div class="subtitulo">Grafico 5</div>
+      <div class="descripcion">Frecuencia de horas las cuales una persona pasa en la misión.</div>
+      <div class="grafico">
+        <div id="chart_11"></div>
+      </div>
+
+      <div class="subtitulo">Grafico 9</div>
+	    <div class="descripcion">Promedio de actividades extravehiculares (en horas) por año de misión.</div>
+      <div class="grafico">
+        <div id="chart_12"></div>
+      </div>
+
+      <div class="subtitulo">Grafico 6</div>
+	     <div class="descripcion">Regresión lineal de cantidad de horas que duro cada astronauta en la misión relacionada con el año.</div>
+      <div class="grafico">
+        <div id="chart_13"></div>
+      </div>
+
+      <div class="subtitulo">Grafico 7</div>
+	     <div class="descripcion"> Relaciona nacionalidad y genero con cantidad de personas que asistieron a las misiones con sichas caracteristicas.</div>
+      <div class="grafico">
+        <div id="chart_14"></div>
+      </div>
+
+      <div class="subtitulo">Grafico 8</div>
+	     <div class="descripcion"> Cantidad de personas que participaron de las misiones en cada año.</div>
+      <div class="grafico">
+        <div id="chart_15"></div>
+      </div>
+  </div>
+  
+  <script>
+
+  function openNav() {
+    document.getElementById("mySidepanel").style.width = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidepanel").style.width = "0";
+  }
+	</script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+    <link rel="stylesheet" href="etapaunoydos.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script>
+    <script src="script.js"></script>
+    <title>TP Visualizacion</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .extra{
+        height: 40px;
+      }
+      .seccion {
+        margin-top: 40px;
+        text-align: center;
+      }
+      
+      .titulo {
+        color: #637373;
+        font-size: 36px;
+        font-weight: bold;
+      }
+      
+      .subtitulo {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 20px;
+        text-align: center;
+      }
+      
+      .descripcion {
+        font-size: 16px;
+        margin-top: 10px;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      .grafico {
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      margin: 0 auto;
+      width: 80%;
+      border: 1px solid #637373;
+      padding: 10px;
+
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div class="subtitulo">Especialidades a la obra</div>
+    <div class="descripcion"> Suma de horas totales de todas las mision de las distintas ocupaciones de sus integrantes dividido por género.</div>
+    <div class="grafico">
+      <div id="chart_11"></div>
+    </div>
+
+
+  </body>
+</html>
