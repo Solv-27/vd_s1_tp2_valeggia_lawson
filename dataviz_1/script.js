@@ -41,7 +41,8 @@ function createChart(yearSelected) {
       label: "Nacionalidad",
     },
     y:{
-      domain: [0,20]
+      domain: [0,20],
+      label: 'Cantidad de participantes',
     },
     color: {
       legend: true,
