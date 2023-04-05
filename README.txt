@@ -3,6 +3,9 @@
 TRABAJO PRACTICO 2: VISUALIZACION DE DATOS
 
 =======
+El proyecto se divide en 2 interfaces: la de la entrega final (index.html) y la de exploración (exploracion/exploracion.html)
+
+A continuación, explicacion de marcas y canales utilizados en todo el proyecto (en etapa de exploración). Incluye todos los gráficos pensados y llevados a cabo, lo que implica que los 4 gráficos finales también están analizados aquí.
 
 Etapa de exploración
 
