@@ -8,7 +8,7 @@ d3.csv('astronautas.csv', d3.autoType).then(data => {
     ],
     
     y:{
-      label: 'Frecuencia',
+      label: 'Cantidad de participantes',
     },
     x:{
       label: 'Año de misión',
